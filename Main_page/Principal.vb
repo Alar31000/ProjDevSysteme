@@ -21,7 +21,7 @@
 
     End Sub
 
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
@@ -106,5 +106,9 @@
 
     Private Sub ImpayésToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ImpayésToolStripMenuItem1.Click
 
+    End Sub
+
+    Private Sub ÀProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÀProposToolStripMenuItem.Click
+        About.Show()
     End Sub
 End Class
