@@ -58,7 +58,7 @@ Partial Class About
         Me.TableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
         Me.TableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
-        Me.TableLayoutPanel.Size = New System.Drawing.Size(692, 339)
+        Me.TableLayoutPanel.Size = New System.Drawing.Size(824, 422)
         Me.TableLayoutPanel.TabIndex = 1
         '
         'LogoPictureBox
@@ -69,7 +69,7 @@ Partial Class About
         Me.LogoPictureBox.Margin = New System.Windows.Forms.Padding(4)
         Me.LogoPictureBox.Name = "LogoPictureBox"
         Me.TableLayoutPanel.SetRowSpan(Me.LogoPictureBox, 6)
-        Me.LogoPictureBox.Size = New System.Drawing.Size(220, 331)
+        Me.LogoPictureBox.Size = New System.Drawing.Size(263, 414)
         Me.LogoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.LogoPictureBox.TabIndex = 0
         Me.LogoPictureBox.TabStop = False
@@ -77,11 +77,12 @@ Partial Class About
         'LabelProductName
         '
         Me.LabelProductName.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelProductName.Location = New System.Drawing.Point(236, 0)
+        Me.LabelProductName.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelProductName.Location = New System.Drawing.Point(279, 0)
         Me.LabelProductName.Margin = New System.Windows.Forms.Padding(8, 0, 4, 0)
-        Me.LabelProductName.MaximumSize = New System.Drawing.Size(0, 21)
+        Me.LabelProductName.MaximumSize = New System.Drawing.Size(0, 30)
         Me.LabelProductName.Name = "LabelProductName"
-        Me.LabelProductName.Size = New System.Drawing.Size(452, 21)
+        Me.LabelProductName.Size = New System.Drawing.Size(541, 30)
         Me.LabelProductName.TabIndex = 0
         Me.LabelProductName.Text = "Product Name"
         Me.LabelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -89,11 +90,12 @@ Partial Class About
         'LabelVersion
         '
         Me.LabelVersion.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelVersion.Location = New System.Drawing.Point(236, 33)
+        Me.LabelVersion.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelVersion.Location = New System.Drawing.Point(279, 42)
         Me.LabelVersion.Margin = New System.Windows.Forms.Padding(8, 0, 4, 0)
-        Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 21)
+        Me.LabelVersion.MaximumSize = New System.Drawing.Size(0, 30)
         Me.LabelVersion.Name = "LabelVersion"
-        Me.LabelVersion.Size = New System.Drawing.Size(452, 21)
+        Me.LabelVersion.Size = New System.Drawing.Size(541, 30)
         Me.LabelVersion.TabIndex = 0
         Me.LabelVersion.Text = "Version"
         Me.LabelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -101,23 +103,26 @@ Partial Class About
         'LabelCopyright
         '
         Me.LabelCopyright.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelCopyright.Location = New System.Drawing.Point(236, 66)
+        Me.LabelCopyright.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelCopyright.Location = New System.Drawing.Point(279, 84)
         Me.LabelCopyright.Margin = New System.Windows.Forms.Padding(8, 0, 4, 0)
-        Me.LabelCopyright.MaximumSize = New System.Drawing.Size(0, 21)
+        Me.LabelCopyright.MaximumSize = New System.Drawing.Size(0, 30)
         Me.LabelCopyright.Name = "LabelCopyright"
-        Me.LabelCopyright.Size = New System.Drawing.Size(452, 21)
+        Me.LabelCopyright.Size = New System.Drawing.Size(541, 30)
         Me.LabelCopyright.TabIndex = 0
         Me.LabelCopyright.Text = "Copyright"
         Me.LabelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'LabelCompanyName
         '
+        Me.LabelCompanyName.BackColor = System.Drawing.SystemColors.Control
         Me.LabelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LabelCompanyName.Location = New System.Drawing.Point(236, 99)
+        Me.LabelCompanyName.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LabelCompanyName.Location = New System.Drawing.Point(279, 126)
         Me.LabelCompanyName.Margin = New System.Windows.Forms.Padding(8, 0, 4, 0)
-        Me.LabelCompanyName.MaximumSize = New System.Drawing.Size(0, 21)
+        Me.LabelCompanyName.MaximumSize = New System.Drawing.Size(0, 30)
         Me.LabelCompanyName.Name = "LabelCompanyName"
-        Me.LabelCompanyName.Size = New System.Drawing.Size(452, 21)
+        Me.LabelCompanyName.Size = New System.Drawing.Size(541, 30)
         Me.LabelCompanyName.TabIndex = 0
         Me.LabelCompanyName.Text = "Company Name"
         Me.LabelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -125,13 +130,15 @@ Partial Class About
         'TextBoxDescription
         '
         Me.TextBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBoxDescription.Location = New System.Drawing.Point(236, 136)
+        Me.TextBoxDescription.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxDescription.Location = New System.Drawing.Point(279, 172)
         Me.TextBoxDescription.Margin = New System.Windows.Forms.Padding(8, 4, 4, 4)
+        Me.TextBoxDescription.MaximumSize = New System.Drawing.Size(541, 210)
         Me.TextBoxDescription.Multiline = True
         Me.TextBoxDescription.Name = "TextBoxDescription"
         Me.TextBoxDescription.ReadOnly = True
         Me.TextBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.TextBoxDescription.Size = New System.Drawing.Size(452, 161)
+        Me.TextBoxDescription.Size = New System.Drawing.Size(541, 203)
         Me.TextBoxDescription.TabIndex = 0
         Me.TextBoxDescription.TabStop = False
         Me.TextBoxDescription.Text = resources.GetString("TextBoxDescription.Text")
@@ -140,7 +147,7 @@ Partial Class About
         '
         Me.OKButton.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.OKButton.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.OKButton.Location = New System.Drawing.Point(588, 305)
+        Me.OKButton.Location = New System.Drawing.Point(720, 388)
         Me.OKButton.Margin = New System.Windows.Forms.Padding(4)
         Me.OKButton.Name = "OKButton"
         Me.OKButton.Size = New System.Drawing.Size(100, 30)
@@ -151,10 +158,10 @@ Partial Class About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(692, 339)
+        Me.ClientSize = New System.Drawing.Size(824, 422)
         Me.Controls.Add(Me.TableLayoutPanel)
         Me.Name = "About"
-        Me.Text = "Form1"
+        Me.Text = "À Propos"
         Me.TableLayoutPanel.ResumeLayout(False)
         Me.TableLayoutPanel.PerformLayout()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).EndInit()

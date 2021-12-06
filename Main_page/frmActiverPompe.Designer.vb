@@ -29,20 +29,21 @@ Partial Class frmActiverPompe
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 16
         Me.ListBox1.Items.AddRange(New Object() {"Pompe 1 : Activée", "Pompe 2 : Activée", "Pompe 3 : Désactivée", "Pompe 4 : Activée", "Pompe 5 : Activée"})
-        Me.ListBox1.Location = New System.Drawing.Point(83, 39)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.ListBox1.Location = New System.Drawing.Point(111, 48)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(163, 95)
+        Me.ListBox1.Size = New System.Drawing.Size(216, 116)
         Me.ListBox1.TabIndex = 0
         '
         'btnOk
         '
         Me.btnOk.BackColor = System.Drawing.Color.Chartreuse
-        Me.btnOk.Location = New System.Drawing.Point(122, 149)
-        Me.btnOk.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnOk.Location = New System.Drawing.Point(163, 183)
+        Me.btnOk.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnOk.Name = "btnOk"
-        Me.btnOk.Size = New System.Drawing.Size(75, 28)
+        Me.btnOk.Size = New System.Drawing.Size(100, 34)
         Me.btnOk.TabIndex = 1
         Me.btnOk.Text = "Activer"
         Me.btnOk.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
@@ -50,13 +51,13 @@ Partial Class frmActiverPompe
         '
         'frmActiverPompe
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightBlue
-        Me.ClientSize = New System.Drawing.Size(372, 220)
+        Me.ClientSize = New System.Drawing.Size(496, 271)
         Me.Controls.Add(Me.btnOk)
         Me.Controls.Add(Me.ListBox1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmActiverPompe"
         Me.Text = "Activer Pompe"
         Me.ResumeLayout(False)
@@ -64,5 +65,5 @@ Partial Class frmActiverPompe
     End Sub
 
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents btnOk As Button
+    Public WithEvents btnOk As Button
 End Class

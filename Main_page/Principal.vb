@@ -111,4 +111,8 @@
     Private Sub ÀProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ÀProposToolStripMenuItem.Click
         About.Show()
     End Sub
+
+    Private Sub AjouterUnEmployerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AjouterUnEmployerToolStripMenuItem.Click
+        Aide.Show()
+    End Sub
 End Class
