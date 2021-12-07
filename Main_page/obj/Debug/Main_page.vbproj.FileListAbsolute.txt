@@ -65,3 +65,5 @@ C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.pdb
 C:\Users\lsfez\source\repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.About.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.SplashScreen1.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Aide.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.frmConsulter.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Pompe4.resources

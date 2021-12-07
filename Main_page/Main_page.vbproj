@@ -85,6 +85,18 @@
     <Compile Include="About.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Pompe4.Designer.vb">
+      <DependentUpon>Pompe4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pompe4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsulter.Designer.vb">
+      <DependentUpon>frmConsulter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsulter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmHelp.Designer.vb">
       <DependentUpon>frmHelp.vb</DependentUpon>
     </Compile>
@@ -176,6 +188,9 @@
     <EmbeddedResource Include="Employe.resx">
       <DependentUpon>Employe.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmConsulter.resx">
+      <DependentUpon>frmConsulter.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHelp.resx">
       <DependentUpon>frmHelp.vb</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pompe2.resx">
       <DependentUpon>Pompe2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pompe4.resx">
+      <DependentUpon>Pompe4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.vb</DependentUpon>

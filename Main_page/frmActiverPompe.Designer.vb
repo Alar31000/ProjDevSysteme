@@ -24,23 +24,23 @@ Partial Class frmActiverPompe
     Private Sub InitializeComponent()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.btnOk = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Items.AddRange(New Object() {"Pompe 1 : Activée", "Pompe 2 : Activée", "Pompe 3 : Désactivée", "Pompe 4 : Activée", "Pompe 5 : Activée"})
-        Me.ListBox1.Location = New System.Drawing.Point(111, 48)
+        Me.ListBox1.Location = New System.Drawing.Point(12, 27)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(216, 116)
+        Me.ListBox1.Size = New System.Drawing.Size(472, 180)
         Me.ListBox1.TabIndex = 0
         '
         'btnOk
         '
-        Me.btnOk.BackColor = System.Drawing.Color.Chartreuse
-        Me.btnOk.Location = New System.Drawing.Point(163, 183)
+        Me.btnOk.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnOk.Location = New System.Drawing.Point(104, 226)
         Me.btnOk.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnOk.Name = "btnOk"
         Me.btnOk.Size = New System.Drawing.Size(100, 34)
@@ -49,21 +49,36 @@ Partial Class frmActiverPompe
         Me.btnOk.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.btnOk.UseVisualStyleBackColor = False
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button1.Location = New System.Drawing.Point(286, 226)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 34)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Désactiver"
+        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'frmActiverPompe
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightBlue
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(496, 271)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnOk)
         Me.Controls.Add(Me.ListBox1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmActiverPompe"
-        Me.Text = "Activer Pompe"
+        Me.Text = "Activation Pompe"
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents ListBox1 As ListBox
     Public WithEvents btnOk As Button
+    Public WithEvents Button1 As Button
 End Class

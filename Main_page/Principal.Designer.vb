@@ -26,12 +26,9 @@ Partial Class Principal
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PompesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Pompes1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Pompe2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CréerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModifierToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsulterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SupprimerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PompesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AjouterUnEmployéToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -75,7 +72,7 @@ Partial Class Principal
         'PompesToolStripMenuItem1
         '
         Me.PompesToolStripMenuItem1.BackColor = System.Drawing.Color.Transparent
-        Me.PompesToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pompes1ToolStripMenuItem, Me.Pompe2ToolStripMenuItem, Me.ToolStripMenuItem2})
+        Me.PompesToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Pompes1ToolStripMenuItem, Me.ToolStripMenuItem2})
         Me.PompesToolStripMenuItem1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PompesToolStripMenuItem1.Name = "PompesToolStripMenuItem1"
         Me.PompesToolStripMenuItem1.Size = New System.Drawing.Size(84, 27)
@@ -84,45 +81,27 @@ Partial Class Principal
         'Pompes1ToolStripMenuItem
         '
         Me.Pompes1ToolStripMenuItem.Name = "Pompes1ToolStripMenuItem"
-        Me.Pompes1ToolStripMenuItem.Size = New System.Drawing.Size(196, 28)
-        Me.Pompes1ToolStripMenuItem.Text = "Activer..."
-        '
-        'Pompe2ToolStripMenuItem
-        '
-        Me.Pompe2ToolStripMenuItem.Name = "Pompe2ToolStripMenuItem"
-        Me.Pompe2ToolStripMenuItem.Size = New System.Drawing.Size(196, 28)
-        Me.Pompe2ToolStripMenuItem.Text = "Désactiver..."
+        Me.Pompes1ToolStripMenuItem.Size = New System.Drawing.Size(231, 28)
+        Me.Pompes1ToolStripMenuItem.Text = "Activer/Désactiver"
         '
         'ToolStripMenuItem2
         '
-        Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CréerToolStripMenuItem, Me.ModifierToolStripMenuItem1, Me.ConsulterToolStripMenuItem, Me.SupprimerToolStripMenuItem})
+        Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ModifierToolStripMenuItem1, Me.ConsulterToolStripMenuItem})
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(196, 28)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(231, 28)
         Me.ToolStripMenuItem2.Text = "Mettre à Jour"
-        '
-        'CréerToolStripMenuItem
-        '
-        Me.CréerToolStripMenuItem.Name = "CréerToolStripMenuItem"
-        Me.CréerToolStripMenuItem.Size = New System.Drawing.Size(185, 28)
-        Me.CréerToolStripMenuItem.Text = "Créer..."
         '
         'ModifierToolStripMenuItem1
         '
         Me.ModifierToolStripMenuItem1.Name = "ModifierToolStripMenuItem1"
-        Me.ModifierToolStripMenuItem1.Size = New System.Drawing.Size(185, 28)
+        Me.ModifierToolStripMenuItem1.Size = New System.Drawing.Size(224, 28)
         Me.ModifierToolStripMenuItem1.Text = "Modifier"
         '
         'ConsulterToolStripMenuItem
         '
         Me.ConsulterToolStripMenuItem.Name = "ConsulterToolStripMenuItem"
-        Me.ConsulterToolStripMenuItem.Size = New System.Drawing.Size(185, 28)
+        Me.ConsulterToolStripMenuItem.Size = New System.Drawing.Size(224, 28)
         Me.ConsulterToolStripMenuItem.Text = "Consulter..."
-        '
-        'SupprimerToolStripMenuItem
-        '
-        Me.SupprimerToolStripMenuItem.Name = "SupprimerToolStripMenuItem"
-        Me.SupprimerToolStripMenuItem.Size = New System.Drawing.Size(185, 28)
-        Me.SupprimerToolStripMenuItem.Text = "Supprimer..."
         '
         'PompesToolStripMenuItem
         '
@@ -152,7 +131,7 @@ Partial Class Principal
         '
         Me.PaiementToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ImprimerLaFactureToolStripMenuItem, Me.ComptantToolStripMenuItem})
         Me.PaiementToolStripMenuItem.Name = "PaiementToolStripMenuItem"
-        Me.PaiementToolStripMenuItem.Size = New System.Drawing.Size(165, 28)
+        Me.PaiementToolStripMenuItem.Size = New System.Drawing.Size(224, 28)
         Me.PaiementToolStripMenuItem.Text = "Paiement"
         '
         'ImprimerLaFactureToolStripMenuItem
@@ -184,7 +163,7 @@ Partial Class Principal
         'TaxesToolStripMenuItem
         '
         Me.TaxesToolStripMenuItem.Name = "TaxesToolStripMenuItem"
-        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(165, 28)
+        Me.TaxesToolStripMenuItem.Size = New System.Drawing.Size(224, 28)
         Me.TaxesToolStripMenuItem.Text = "Taxes"
         '
         'RapportsToolStripMenuItem
@@ -237,8 +216,8 @@ Partial Class Principal
         'CréerToolStripMenuItem1
         '
         Me.CréerToolStripMenuItem1.Name = "CréerToolStripMenuItem1"
-        Me.CréerToolStripMenuItem1.Size = New System.Drawing.Size(147, 28)
-        Me.CréerToolStripMenuItem1.Text = "Créer..."
+        Me.CréerToolStripMenuItem1.Size = New System.Drawing.Size(224, 28)
+        Me.CréerToolStripMenuItem1.Text = "Archivage"
         '
         'AdminToolStripMenuItem
         '
@@ -315,7 +294,6 @@ Partial Class Principal
     Friend WithEvents AjouterUnEmployéToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PompesToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents Pompes1ToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Pompe2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RapportsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FacturationToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PaiementsToolStripMenuItem As ToolStripMenuItem
@@ -329,10 +307,8 @@ Partial Class Principal
     Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
     Friend WithEvents FermerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
-    Friend WithEvents CréerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModifierToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ConsulterToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SupprimerToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ListeDesTransactionsParMasterCardToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ImpayésToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents CréerToolStripMenuItem1 As ToolStripMenuItem

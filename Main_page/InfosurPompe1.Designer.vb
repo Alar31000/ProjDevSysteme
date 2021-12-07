@@ -45,116 +45,110 @@ Partial Class InfosurPompe1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(175, 44)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Location = New System.Drawing.Point(233, 54)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(89, 22)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Text = "ESSO"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(21, 81)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(28, 100)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(130, 13)
+        Me.Label1.Size = New System.Drawing.Size(166, 16)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Num de serie de la pompe"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(23, 44)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(31, 54)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(46, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 16)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Marque "
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(23, 213)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(31, 262)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(88, 13)
+        Me.Label3.Size = New System.Drawing.Size(108, 16)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Dernier entretien:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(21, 177)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(28, 218)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(93, 13)
+        Me.Label4.Size = New System.Drawing.Size(116, 16)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Esperance de vie:"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(23, 148)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(31, 182)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(93, 13)
+        Me.Label5.Size = New System.Drawing.Size(113, 16)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Année de l'achat :"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(23, 120)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(31, 148)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(41, 13)
+        Me.Label6.Size = New System.Drawing.Size(49, 16)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "Année:"
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(175, 144)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox2.Location = New System.Drawing.Point(233, 177)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(68, 18)
+        Me.TextBox2.Size = New System.Drawing.Size(89, 21)
         Me.TextBox2.TabIndex = 7
         Me.TextBox2.Text = "2000"
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(175, 177)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox3.Location = New System.Drawing.Point(233, 218)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(89, 22)
         Me.TextBox3.TabIndex = 8
         Me.TextBox3.Text = "10"
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(175, 213)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox4.Location = New System.Drawing.Point(233, 262)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox4.Size = New System.Drawing.Size(89, 22)
         Me.TextBox4.TabIndex = 9
         Me.TextBox4.Text = "2015"
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(175, 120)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox5.Location = New System.Drawing.Point(233, 148)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox5.Size = New System.Drawing.Size(89, 22)
         Me.TextBox5.TabIndex = 10
         Me.TextBox5.Text = "2019"
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(175, 77)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox6.Location = New System.Drawing.Point(233, 95)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox6.Size = New System.Drawing.Size(89, 22)
         Me.TextBox6.TabIndex = 11
         Me.TextBox6.Text = "123456"
         '
@@ -163,91 +157,87 @@ Partial Class InfosurPompe1
         Me.ProgressBar1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ProgressBar1.Location = New System.Drawing.Point(505, 93)
-        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ProgressBar1.Location = New System.Drawing.Point(673, 114)
+        Me.ProgressBar1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ProgressBar1.RightToLeftLayout = True
-        Me.ProgressBar1.Size = New System.Drawing.Size(101, 23)
+        Me.ProgressBar1.Size = New System.Drawing.Size(135, 28)
         Me.ProgressBar1.TabIndex = 12
         Me.ProgressBar1.Value = 70
         '
         'ProgressBar2
         '
-        Me.ProgressBar2.Location = New System.Drawing.Point(505, 131)
-        Me.ProgressBar2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ProgressBar2.Location = New System.Drawing.Point(673, 161)
+        Me.ProgressBar2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ProgressBar2.Name = "ProgressBar2"
         Me.ProgressBar2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ProgressBar2.RightToLeftLayout = True
-        Me.ProgressBar2.Size = New System.Drawing.Size(101, 23)
+        Me.ProgressBar2.Size = New System.Drawing.Size(135, 28)
         Me.ProgressBar2.TabIndex = 13
         Me.ProgressBar2.Value = 90
         '
         'ProgressBar3
         '
-        Me.ProgressBar3.Location = New System.Drawing.Point(505, 175)
-        Me.ProgressBar3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ProgressBar3.Location = New System.Drawing.Point(673, 210)
+        Me.ProgressBar3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ProgressBar3.Name = "ProgressBar3"
         Me.ProgressBar3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ProgressBar3.RightToLeftLayout = True
-        Me.ProgressBar3.Size = New System.Drawing.Size(101, 24)
+        Me.ProgressBar3.Size = New System.Drawing.Size(135, 30)
         Me.ProgressBar3.TabIndex = 14
         Me.ProgressBar3.Value = 50
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Label7.BackColor = System.Drawing.SystemColors.Control
         Me.Label7.Font = New System.Drawing.Font("Bookman Old Style", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(441, 32)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(515, 56)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(85, 17)
+        Me.Label7.Size = New System.Drawing.Size(215, 20)
         Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Carburants"
+        Me.Label7.Text = "Niveau des Carburants:"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Red
         Me.Label8.Font = New System.Drawing.Font("Bookman Old Style", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(389, 100)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(515, 114)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(50, 17)
+        Me.Label8.Size = New System.Drawing.Size(87, 20)
         Me.Label8.TabIndex = 16
-        Me.Label8.Text = "Super"
+        Me.Label8.Text = "Suprême"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Gold
         Me.Label9.Font = New System.Drawing.Font("Bookman Old Style", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(389, 138)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(515, 161)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(41, 17)
+        Me.Label9.Size = New System.Drawing.Size(57, 20)
         Me.Label9.TabIndex = 17
-        Me.Label9.Text = "Gold"
+        Me.Label9.Text = "Extra"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Cyan
         Me.Label10.Font = New System.Drawing.Font("Bookman Old Style", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(389, 183)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(515, 210)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(68, 17)
+        Me.Label10.Size = New System.Drawing.Size(83, 20)
         Me.Label10.TabIndex = 18
         Me.Label10.Text = "Regulier"
         '
         'InfosurPompe1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightSkyBlue
-        Me.ClientSize = New System.Drawing.Size(746, 523)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(995, 644)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
@@ -267,7 +257,7 @@ Partial Class InfosurPompe1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "InfosurPompe1"
         Me.Text = "Pompe1"
         Me.ResumeLayout(False)

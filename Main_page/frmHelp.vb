@@ -12,7 +12,7 @@
 
     Private Sub TreeView1_AfterSelect(sender As Object, e As TreeViewEventArgs) Handles TreeView1.AfterSelect
         If e.Node.Name = "Node0" Then
-            RichTextBox1.Text = "L’introduction est l’une des parties les plus courtes du texte, mais elle est essentielle. C’est l’introduction qui attire le lecteur et qui lui donne le gout de poursuivre sa lecture. C’est aussi l’introduction qui présente succinctement le contenu du texte. Elle doit donc être bien construite pour que le lecteur soit bien préparé à la lecture.
+            TextBoxDescription.Text = "L’introduction est l’une des parties les plus courtes du texte, mais elle est essentielle. C’est l’introduction qui attire le lecteur et qui lui donne le gout de poursuivre sa lecture. C’est aussi l’introduction qui présente succinctement le contenu du texte. Elle doit donc être bien construite pour que le lecteur soit bien préparé à la lecture.
 
 Plus spécifiquement, l’introduction d'un texte descriptif sert à présenter le sujet du texte et la manière dont il sera présenté. Généralement, une introduction comporte trois étapes :
  
@@ -22,7 +22,7 @@ Plus spécifiquement, l’introduction d'un texte descriptif sert à présenter 
  3. Le sujet divisé"
         End If
         If e.Node.Name = "Node1" Then
-            RichTextBox1.Text = "Une interface définit la frontière de communication entre deux entités, comme des éléments de logiciel, des composants de matériel informatique, ou un utilisateur. Elle se réfère généralement à une image abstraite qu'une entité fournit d'elle-même à l'extérieur. Cela permet de distinguer les méthodes de communication avec l'extérieur et les opérations internes, et autorise à modifier les opérations internes sans affecter la façon dont les entités externes interagissent avec elle, en même temps qu'elle en fournit des abstractions multiples. On appelle aussi interfaces des dispositifs fournissant un moyen de traduction entre des entités qui n'utilisent pas le même langage, comme entre un être humain et un ordinateur. Étant donné que ces interfaces réalisent des traductions et des adaptations, elles entraînent des coûts de développement supplémentaires par rapport à des communications directes.
+            TextBoxDescription.Text = "Une interface définit la frontière de communication entre deux entités, comme des éléments de logiciel, des composants de matériel informatique, ou un utilisateur. Elle se réfère généralement à une image abstraite qu'une entité fournit d'elle-même à l'extérieur. Cela permet de distinguer les méthodes de communication avec l'extérieur et les opérations internes, et autorise à modifier les opérations internes sans affecter la façon dont les entités externes interagissent avec elle, en même temps qu'elle en fournit des abstractions multiples. On appelle aussi interfaces des dispositifs fournissant un moyen de traduction entre des entités qui n'utilisent pas le même langage, comme entre un être humain et un ordinateur. Étant donné que ces interfaces réalisent des traductions et des adaptations, elles entraînent des coûts de développement supplémentaires par rapport à des communications directes.
 
 Variétés :
 
@@ -32,15 +32,15 @@ L’interface qui est présentée à l’utilisateur est nommée interface utili
 Les interfaces entre des composants de matériel informatique sont des interfaces physiques."
         End If
         If e.Node.Name = "Node2" Then
-            RichTextBox1.Text = "Une station-service, aussi appelée station essence, station d’essence, station à essence, ou encore pompe à essence est une infrastructure positionnée sur le bord d'une route ou d'une autoroute destinée principalement à fournir du carburant aux automobilistes. Le mot « station-service » est un calque de la locution anglaise (service station).
+            TextBoxDescription.Text = "Une station-service, aussi appelée station essence, station d’essence, station à essence, ou encore pompe à essence est une infrastructure positionnée sur le bord d'une route ou d'une autoroute destinée principalement à fournir du carburant aux automobilistes. Le mot « station-service » est un calque de la locution anglaise (service station).
 
 Outre les distributeurs de carburant, les stations les plus équipées offrent aussi des services nécessaires aux véhicules automobiles : boutique d'accessoires automobiles, station de gonflage des pneumatiques, petite mécanique et dépannage. Parfois, une carte carburant peut être utilisée comme moyen de paiement. Elles proposent également des services à destination des automobilistes : toilettes, épicerie, restauration, téléphone public."
         End If
         If e.Node.Name = "Node3" Then
-            RichTextBox1.Text = "Le client est essentiel, il aura droit à des jetons pour chaque 5$ dépensé."
+            TextBoxDescription.Text = "Le client est essentiel, il aura droit à des jetons pour chaque 5$ dépensé."
         End If
         If e.Node.Name = "Node4" Then
-            RichTextBox1.Text = "Saviez-vous que les pompes à essence doivent être approuvées par nous?, inspectées avant d'être utilisées? et réinspectées tous les 2 ans?
+            TextBoxDescription.Text = "Saviez-vous que les pompes à essence doivent être approuvées par nous?, inspectées avant d'être utilisées? et réinspectées tous les 2 ans?
 
 Les pompes inexactes doivent être réparées ou elles risquent d'être retirées du service.
 Le propriétaire doit veiller à ce que la pompe mesure avec exactitude en tout temps.
@@ -69,7 +69,7 @@ Plaintes sur le prix de l'essence
 Pour signaler un cas présumé de ﬁxation des prix dans le secteur de l'essence au détail ou tout autre problème lié au prix de l'essence, vous pouvez communiquer avec le Bureau de la concurrence à bureaudelaconcurrence.gc.ca."
         End If
         If e.Node.Name = "Node5" Then
-            RichTextBox1.Text = "À partir du 1er septembre 2020, les stagiaires et les étudiants stagiaires dans une industrie ou un milieu de travail sous réglementation fédérale, ont droit à ce qui suit :
+            TextBoxDescription.Text = "À partir du 1er septembre 2020, les stagiaires et les étudiants stagiaires dans une industrie ou un milieu de travail sous réglementation fédérale, ont droit à ce qui suit :
 Stagiaires :
 ont droit de recevoir toutes les mesures de protection en vertu de la partie III du Code canadien du travail;
 doivent être rémunérés au moins au salaire minimum.
@@ -81,7 +81,7 @@ Normes du travail fédérales pour les stagiaires et les étudiants stagiaires
 Obligations des employeurs envers les stagiaires et les étudiants stagiaires"
         End If
         If e.Node.Name = "Node6" Then
-            RichTextBox1.Text = "Le présentéisme définit généralement le fait répété pour un employé d’être au travail, et ce, malgré des symptômes de maladie qui devraient normalement le contraindre à s’absenter. L’absentéisme, pour sa part, ne fait pas l’objet d’une définition unanimement reconnue. Certains, plus largement, le considèrent comme étant simplement la récurrence d’absences au travail. D’autres limitent ce phénomène uniquement aux absences au travail non justifiées.
+            TextBoxDescription.Text = "Le présentéisme définit généralement le fait répété pour un employé d’être au travail, et ce, malgré des symptômes de maladie qui devraient normalement le contraindre à s’absenter. L’absentéisme, pour sa part, ne fait pas l’objet d’une définition unanimement reconnue. Certains, plus largement, le considèrent comme étant simplement la récurrence d’absences au travail. D’autres limitent ce phénomène uniquement aux absences au travail non justifiées.
 
 Plusieurs études conçoivent l’absentéisme et le présentéisme comme l’avers et le revers de la même médaille. Par exemple, un salarié qui se présente à plusieurs reprises au travail bien qu’on lui ait prescrit du repos risque, à terme, de devoir s’absenter pour traiter les conséquences physiques et mentales de son excès de zèle.
 
@@ -105,12 +105,12 @@ Afin de bâtir des milieux de travail plus sains pour tout un chacun, les respon
 En revanche, le présentéisme peut être motivé par la volonté de ne pas laisser des collègues en plan ou de maintenir une image professionnelle forte, par la peur de perdre son emploi ou d’être mal perçu au sein de l’organisation, ou encore par la volonté de respecter des délais serrés imposés pour accomplir certaines tâches."
         End If
         If e.Node.Name = "Node7" Then
-            RichTextBox1.Text = "L'état d'urgence désigne un régime exceptionnel, mis en place par un gouvernement, en cas d'atteinte grave à l'ordre public, de troubles graves ou de calamités nationales. Il se traduit par un renforcement des pouvoirs de l'autorité administrative, notamment des pouvoirs de police, des restrictions de certaines libertés publiques ou individuelles pour des personnes considérées comme dangereuses : contrôle de la presse, limitation de circulation des personnes ou des véhicules, expulsions du territoire, interdiction de réunion, assignation à résidence, etc.
+            TextBoxDescription.Text = "L'état d'urgence désigne un régime exceptionnel, mis en place par un gouvernement, en cas d'atteinte grave à l'ordre public, de troubles graves ou de calamités nationales. Il se traduit par un renforcement des pouvoirs de l'autorité administrative, notamment des pouvoirs de police, des restrictions de certaines libertés publiques ou individuelles pour des personnes considérées comme dangereuses : contrôle de la presse, limitation de circulation des personnes ou des véhicules, expulsions du territoire, interdiction de réunion, assignation à résidence, etc.
 
 L'état d'urgence peut être proclamé sur tout le territoire ou sur une partie de celui-ci. Même s'il est prévu par la loi, l'état d'urgence est une mise entre parenthèses de l'Etat de droit au profit du maintien de l'ordre public."
         End If
         If e.Node.Name = "Node8" Then
-            RichTextBox1.Text = "Quoi faire en cas d’incendie
+            TextBoxDescription.Text = "Quoi faire en cas d’incendie
 Si un incendie se déclare, votre premier réflexe doit être de quitter les lieux. L’évacuation sera rapide et efficace si elle a été préparée.
 
 Si vous pénétrez dans un immeuble d’habitation ou un édifice public pour la première fois, repérez les issues de secours, qui sont indiquées au moyen de panneaux portant la mention «SORTIE» ou «EXIT».
@@ -141,7 +141,7 @@ ouvrez une fenêtre, mais préparez-vous à la refermer rapidement si la fumée 
 allez sur le balcon si vous croyez que la fumée et les flammes ne vous atteindront pas ou placez-vous devant une fenêtre afin d’être repéré."
         End If
         If e.Node.Name = "Node9" Then
-            RichTextBox1.Text = "Appelez la police!
+            TextBoxDescription.Text = "Appelez la police!
 Dès que vous constatez une entrée par effraction ou un vol, appelez le service de police et ne touchez à rien jusqu'à l'arrivée des policiers.
 Un rapport de police est nécessaire dans le traitement de votre réclamation.
 Mesures à prendre à la suite d'un vol
@@ -149,7 +149,7 @@ Sécurisez les lieux au besoin, afin d'éviter entre autres que les dommages ne 
 Faites une liste sommaire des biens volés ou détruits et des dommages à la résidence."
         End If
         If e.Node.Name = "Node10" Then
-            RichTextBox1.Text = "Foires aux Questions"
+            TextBoxDescription.Text = "Foires aux Questions"
         End If
     End Sub
 End Class
