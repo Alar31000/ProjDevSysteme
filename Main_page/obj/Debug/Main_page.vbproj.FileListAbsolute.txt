@@ -46,7 +46,6 @@ C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\bin\Debug\Main_page.pdb
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\bin\Debug\Main_page.xml
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.vbproj.AssemblyReference.cache
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.vbproj.SuggestedBindingRedirects.cache
-C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Employe.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.frmActiverPompe.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.FrmDesactiverPompe.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.frmImpaye.resources
@@ -67,3 +66,8 @@ C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.SplashS
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Aide.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.frmConsulter.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Pompe4.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.frmEmploye.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.FrmFacture.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Paiement.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Chargement.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Form1.resources

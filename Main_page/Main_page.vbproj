@@ -73,16 +73,40 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employe.Designer.vb">
-      <DependentUpon>Employe.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Employe.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="About.Designer.vb">
       <DependentUpon>About.vb</DependentUpon>
     </Compile>
     <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChargement.Designer.vb">
+      <DependentUpon>frmChargement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChargement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacture.Designer.vb">
+      <DependentUpon>frmFacture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFacture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paiement.Designer.vb">
+      <DependentUpon>Paiement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paiement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmploye.Designer.vb">
+      <DependentUpon>frmEmploye.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmploye.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Pompe4.Designer.vb">
@@ -185,11 +209,23 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employe.resx">
-      <DependentUpon>Employe.vb</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChargement.resx">
+      <DependentUpon>frmChargement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFacture.resx">
+      <DependentUpon>frmFacture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paiement.resx">
+      <DependentUpon>Paiement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmConsulter.resx">
       <DependentUpon>frmConsulter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmploye.resx">
+      <DependentUpon>frmEmploye.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHelp.resx">
       <DependentUpon>frmHelp.vb</DependentUpon>
@@ -251,6 +287,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cs-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gas-fuel-receipt-maker-15830962323.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

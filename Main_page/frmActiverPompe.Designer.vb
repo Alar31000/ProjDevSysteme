@@ -73,7 +73,7 @@ Partial Class frmActiverPompe
         Me.Controls.Add(Me.ListBox1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmActiverPompe"
-        Me.Text = "Activation Pompe"
+        Me.Text = "Gestionnaire des Pompes"
         Me.ResumeLayout(False)
 
     End Sub

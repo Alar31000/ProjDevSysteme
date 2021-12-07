@@ -114,7 +114,7 @@ Partial Class Pompe4
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label5)
         Me.Name = "Pompe4"
-        Me.Text = "Form1"
+        Me.Text = "Pompe4"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)

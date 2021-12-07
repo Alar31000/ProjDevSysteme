@@ -1,4 +1,11 @@
-﻿Public Class Principal
+﻿Imports System.Drawing.Printing
+
+Public Class Principal
+    Public WithEvents PrintDocument1 As PrintDocument = New PrintDocument
+    Public PrintDialog1 As New PrintDialog
+    Public PageSetupDialog1 As New PageSetupDialog
+    Public PictureBox1 As New PictureBox
+
     Private Sub AdminToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AdminToolStripMenuItem.Click
 
     End Sub
@@ -13,7 +20,7 @@
 
     End Sub
 
-    Private Sub ImprimerLaFactureToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ImprimerLaFactureToolStripMenuItem.Click
+    Private Sub ImprimerLaFactureToolStripMenuItem_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -80,11 +87,6 @@
         'MessageBox.Show("Voulez-vous Désactiver?")
     End Sub
 
-    Private Sub AjouterUnEmployéToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AjouterUnEmployéToolStripMenuItem.Click
-        Employe.Show()
-
-
-    End Sub
 
     Private Sub Pompes1ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles Pompes1ToolStripMenuItem.Click
         frmActiverPompe.Show()
@@ -126,5 +128,39 @@
 
     Private Sub ConsulterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsulterToolStripMenuItem.Click
         frmConsulter.Show()
+    End Sub
+
+    Private Sub GestionDesEmployésToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GestionDesEmployésToolStripMenuItem.Click
+        frmEmploye.Show()
+    End Sub
+
+    Private Sub PaiementToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PaiementToolStripMenuItem.Click
+        FrmFacture.Show()
+    End Sub
+    Private Function PreparePrintDocument() As PrintDocument
+        ' Make the PrintDocument object.
+        Dim print_document As New PrintDocument
+
+        ' Install the PrintPage event handler.
+        AddHandler print_document.PrintPage, AddressOf _
+        PrintDocument1_PrintPage
+
+        ' Return the object.
+        Return print_document
+    End Function
+    Private Sub ImprimerDerniereFactureToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ImprimerDerniereFactureToolStripMenuItem.Click
+        ' Specify a PrintDocument instance for the PrintPreviewDialog component.
+        PrintPreviewDialog1.Document = PreparePrintDocument()
+        PrintPreviewDialog1.Show()
+
+    End Sub
+    Private Sub PrintDocument1_PrintPage(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
+
+
+        'load the picture image into the picturebox
+        PictureBox1.Image = Image.FromFile("C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\gas-fuel-receipt-maker-15830962323.png")
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+
+
     End Sub
 End Class
