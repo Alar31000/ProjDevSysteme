@@ -49,7 +49,6 @@ Partial Class frmImpaye
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Items.AddRange(New Object() {"Transaction 1", "Transaction 2", "Transaction 3", "Transaction 4", "Transaction 5"})
         Me.ListBox1.Location = New System.Drawing.Point(29, 46)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ListBox1.Name = "ListBox1"

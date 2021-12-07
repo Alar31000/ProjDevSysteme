@@ -25,41 +25,39 @@ Partial Class Employe
         Me.Quitter = New System.Windows.Forms.Button()
         Me.Supprimer = New System.Windows.Forms.Button()
         Me.Modifer = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Ajouter = New System.Windows.Forms.Button()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Quitter
         '
-        Me.Quitter.BackColor = System.Drawing.Color.DarkOrange
+        Me.Quitter.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Quitter.Font = New System.Drawing.Font("Bookman Old Style", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Quitter.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Quitter.Location = New System.Drawing.Point(308, 491)
-        Me.Quitter.Margin = New System.Windows.Forms.Padding(2)
+        Me.Quitter.Location = New System.Drawing.Point(309, 623)
+        Me.Quitter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Quitter.Name = "Quitter"
-        Me.Quitter.Size = New System.Drawing.Size(89, 42)
+        Me.Quitter.Size = New System.Drawing.Size(91, 33)
         Me.Quitter.TabIndex = 32
-        Me.Quitter.Text = "Quitter"
+        Me.Quitter.Text = "Ok"
         Me.Quitter.UseVisualStyleBackColor = False
         '
         'Supprimer
         '
         Me.Supprimer.BackColor = System.Drawing.Color.Crimson
-        Me.Supprimer.Location = New System.Drawing.Point(96, 120)
-        Me.Supprimer.Margin = New System.Windows.Forms.Padding(2)
+        Me.Supprimer.Location = New System.Drawing.Point(302, 159)
+        Me.Supprimer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Supprimer.Name = "Supprimer"
-        Me.Supprimer.Size = New System.Drawing.Size(72, 31)
+        Me.Supprimer.Size = New System.Drawing.Size(119, 38)
         Me.Supprimer.TabIndex = 31
         Me.Supprimer.Text = "Supprimer"
         Me.Supprimer.UseVisualStyleBackColor = False
@@ -67,163 +65,138 @@ Partial Class Employe
         'Modifer
         '
         Me.Modifer.BackColor = System.Drawing.Color.DeepSkyBlue
-        Me.Modifer.Location = New System.Drawing.Point(512, 119)
-        Me.Modifer.Margin = New System.Windows.Forms.Padding(2)
+        Me.Modifer.Location = New System.Drawing.Point(522, 159)
+        Me.Modifer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Modifer.Name = "Modifer"
-        Me.Modifer.Size = New System.Drawing.Size(70, 31)
+        Me.Modifer.Size = New System.Drawing.Size(93, 38)
         Me.Modifer.TabIndex = 30
         Me.Modifer.Text = "Modifier"
         Me.Modifer.UseVisualStyleBackColor = False
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.Navy
-        Me.Panel1.Location = New System.Drawing.Point(71, 10)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(605, 25)
-        Me.Panel1.TabIndex = 29
-        '
         'Ajouter
         '
         Me.Ajouter.BackColor = System.Drawing.Color.Lime
-        Me.Ajouter.Location = New System.Drawing.Point(314, 119)
-        Me.Ajouter.Margin = New System.Windows.Forms.Padding(2)
+        Me.Ajouter.Location = New System.Drawing.Point(101, 159)
+        Me.Ajouter.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Ajouter.Name = "Ajouter"
-        Me.Ajouter.Size = New System.Drawing.Size(83, 32)
+        Me.Ajouter.Size = New System.Drawing.Size(111, 38)
         Me.Ajouter.TabIndex = 28
         Me.Ajouter.Text = "Ajouter"
         Me.Ajouter.UseVisualStyleBackColor = False
         '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(362, 82)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(2)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(82, 21)
-        Me.ComboBox2.TabIndex = 27
-        '
         'ListView1
         '
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(61, 156)
-        Me.ListView1.Margin = New System.Windows.Forms.Padding(2)
+        Me.ListView1.Location = New System.Drawing.Point(86, 216)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(589, 315)
+        Me.ListView1.Size = New System.Drawing.Size(571, 387)
         Me.ListView1.TabIndex = 26
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
         '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(568, 43)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(82, 21)
-        Me.ComboBox1.TabIndex = 25
-        '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(362, 46)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox3.Location = New System.Drawing.Point(526, 73)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(89, 22)
         Me.TextBox3.TabIndex = 24
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(157, 81)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox2.Location = New System.Drawing.Point(215, 113)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(89, 22)
         Me.TextBox2.TabIndex = 23
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(157, 46)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox1.Location = New System.Drawing.Point(215, 70)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(89, 22)
         Me.TextBox1.TabIndex = 22
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(257, 85)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(25, 13)
-        Me.Label5.TabIndex = 21
-        Me.Label5.Text = "Sex"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(465, 46)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(349, 116)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(76, 13)
+        Me.Label4.Size = New System.Drawing.Size(47, 16)
         Me.Label4.TabIndex = 20
-        Me.Label4.Text = "Responsabilité"
+        Me.Label4.Text = "Jetons"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(257, 49)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(349, 73)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(87, 13)
+        Me.Label3.Size = New System.Drawing.Size(158, 16)
         Me.Label3.TabIndex = 19
-        Me.Label3.Text = "Heures de travail"
+        Me.Label3.Text = "Numéro d'Immatriculation"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(69, 46)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(98, 73)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 13)
+        Me.Label2.Size = New System.Drawing.Size(56, 16)
         Me.Label2.TabIndex = 18
-        Me.Label2.Text = "ID employé(e)"
+        Me.Label2.Text = "ID Client"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(69, 85)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(98, 113)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 13)
+        Me.Label1.Size = New System.Drawing.Size(99, 16)
         Me.Label1.TabIndex = 17
         Me.Label1.Text = "Nom et prénom"
         '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(295, 9)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(105, 38)
+        Me.Label6.TabIndex = 33
+        Me.Label6.Text = "Clients"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(526, 113)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(89, 22)
+        Me.TextBox4.TabIndex = 34
+        '
         'Employe
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.BackColor = System.Drawing.Color.LightBlue
-        Me.ClientSize = New System.Drawing.Size(696, 542)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(746, 667)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Quitter)
         Me.Controls.Add(Me.Supprimer)
         Me.Controls.Add(Me.Modifer)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Ajouter)
-        Me.Controls.Add(Me.ComboBox2)
         Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Employe"
-        Me.Text = "Employe"
+        Me.Text = "Clients"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -232,17 +205,15 @@ Partial Class Employe
     Friend WithEvents Quitter As Button
     Friend WithEvents Supprimer As Button
     Friend WithEvents Modifer As Button
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents Ajouter As Button
-    Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents ListView1 As ListView
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox4 As TextBox
 End Class
