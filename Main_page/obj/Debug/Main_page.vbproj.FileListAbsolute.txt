@@ -71,3 +71,6 @@ C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.FrmFact
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Paiement.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Chargement.resources
 C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.Form1.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.impaid.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.TransCredit.resources
+C:\Users\lsfez\Source\Repos\ProjDevSysteme\Main_page\obj\Debug\Main_page.CmptClnt.resources

@@ -163,4 +163,19 @@ Public Class Principal
 
 
     End Sub
+
+    Private Sub ListeDesTrasactionParCarteDébitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListeDesTrasactionParCarteDébitToolStripMenuItem.Click
+        CmptClnt.Show()
+
+    End Sub
+
+    Private Sub ListeDesTransactionsParMasterCardToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ListeDesTransactionsParMasterCardToolStripMenuItem.Click
+        TransCredit.Show()
+
+    End Sub
+
+    Private Sub PaiementsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PaiementsToolStripMenuItem.Click
+        impaid.Show()
+
+    End Sub
 End Class

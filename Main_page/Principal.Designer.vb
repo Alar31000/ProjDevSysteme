@@ -146,13 +146,13 @@ Partial Class Principal
         'PaiementsToolStripMenuItem
         '
         Me.PaiementsToolStripMenuItem.Name = "PaiementsToolStripMenuItem"
-        Me.PaiementsToolStripMenuItem.Size = New System.Drawing.Size(380, 28)
+        Me.PaiementsToolStripMenuItem.Size = New System.Drawing.Size(403, 28)
         Me.PaiementsToolStripMenuItem.Text = "Liste des transactions impayéess"
         '
         'ListeDesTransactionsParMasterCardToolStripMenuItem
         '
         Me.ListeDesTransactionsParMasterCardToolStripMenuItem.Name = "ListeDesTransactionsParMasterCardToolStripMenuItem"
-        Me.ListeDesTransactionsParMasterCardToolStripMenuItem.Size = New System.Drawing.Size(380, 28)
+        Me.ListeDesTransactionsParMasterCardToolStripMenuItem.Size = New System.Drawing.Size(403, 28)
         Me.ListeDesTransactionsParMasterCardToolStripMenuItem.Text = "Liste des transactions par Carte credit"
         '
         'ListeDesTrasactionParCarteDébitToolStripMenuItem
