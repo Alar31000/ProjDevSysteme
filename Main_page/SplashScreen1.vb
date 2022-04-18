@@ -12,7 +12,7 @@
 
         'Application title
         If My.Application.Info.Title <> "" Then
-            ApplicationTitle.Text = "Winergie.Inc pour SGP."
+            ApplicationTitle.Text = "Gas Station."
         Else
             'If the application title is missing, use the application name, without the extension
             ApplicationTitle.Text = System.IO.Path.GetFileNameWithoutExtension(My.Application.Info.AssemblyName)
@@ -26,13 +26,11 @@
         '
         '    Version.Text = System.String.Format(Version.Text, My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build, My.Application.Info.Version.Revision)
 
-        Version.Text = "Version : 1.2b."
+        Version.Text = "Version : 1.0a."
 
         'Copyright info
         Copyright.Text = "Droit Légal :Tous droits sont non réservés."
     End Sub
 
-    Private Sub ApplicationTitle_Click(sender As Object, e As EventArgs) Handles ApplicationTitle.Click
 
-    End Sub
 End Class
